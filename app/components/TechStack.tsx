@@ -76,7 +76,7 @@ const techStack: Tech[] = [
     name: "CSS3",
     icon: ({ className = "" }: { className?: string }) => (
       <img
-        src="/css3.webp"
+        src="/css-icon.webp"
         alt="CSS3"
         className={`w-8 h-8 object-contain brightness-[0.7] grayscale contrast-[0.5] group-hover:brightness-100 group-hover:grayscale-0 group-hover:contrast-100 transition-all duration-300 ${className}`}
       />
