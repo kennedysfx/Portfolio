@@ -132,7 +132,7 @@ export default function Hero() {
         delay={5.0}
       />
       <FrameLineHorizontal
-        position="bottom-[22%] min-[481px]:max-[1023px]:bottom-[15%] md:bottom-[11%] left-[10%] md:left-[25%] right-[10%] md:right-[25%]"
+        position="bottom-[15%] min-[481px]:max-[1023px]:bottom-[15%] md:bottom-[11%] left-[10%] md:left-[25%] right-[10%] md:right-[25%]"
         delay={5.0}
       />
 
