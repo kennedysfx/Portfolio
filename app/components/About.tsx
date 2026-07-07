@@ -189,8 +189,8 @@ export default function About() {
           >
             <p>
               I look at software through a business lens. Instead of just slapping pages together, 
-              I hunt down the annoying technical friction points that cause users to drop off like a checkout 
-              form that completely wipes out a user's data if they click away to read the privacy policy.
+              I hunt down the annoying technical bugs that cause users to drop off—like a checkout 
+              form that completely wipes out a user's data if they accidentally click away."
             </p>
             <p>
               By blending modern React engineering with smart, AI-driven workflows, I build products 
