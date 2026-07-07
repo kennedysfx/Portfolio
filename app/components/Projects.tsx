@@ -59,7 +59,7 @@ const projects: Project[] = [
     index: "02",
     title: "AllStars Against Cancer",
     description:
-      "A nonprofit fundraising platform built to turn visitor trust into donations — featuring transparent impact reporting, patient stories, and a streamlined giving flow for cancer research funding.",
+      "A nonprofit fundraising platform built to turn visitor trust into donations. Featuring transparent impact reporting, patient stories, and a streamlined giving flow for cancer research funding.",
     image: "/projects/allstars-against-cancer.png",
     stack: ["Next.js", "Tailwind CSS", "Vercel", "neon"],
     link: "https://allstars-against-cancer.vercel.app/",
