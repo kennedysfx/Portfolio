@@ -151,7 +151,7 @@ export default function Hero() {
         {/* Dynamic Heading */}
         <h1 className="text-5xl md:text-8xl font-bold tracking-tighter mb-6">
           I'm Kennedy, <br />
-          <span className="text-blue-500 block h-[1.2em] text-5xl max-[480px]:text-5xl md:text-8xl">
+          <span className="text-blue-500 block h-[1.2em] text-5xl max-[480px]:text-4xl md:text-8xl">
             <AnimatePresence mode="wait">
               <motion.span
                 key={roles[index]}
@@ -191,7 +191,7 @@ export default function Hero() {
            animate={isMobile ? "visible" : undefined}
            whileInView={!isMobile ? "visible" : undefined}
            viewport={{ once: true, amount: 0.2 }}
-           className="px-8 py-3 bg-blue-500 text-black font-semibold rounded-none hover:bg-blue-600 transition-colors"
+           className="px-8 py-3 max-[480px]:px-5 max-[480px]:py-2.5 max-[480px]:text-xs bg-blue-500 text-black font-semibold rounded-none hover:bg-blue-600 transition-colors"
   
  
          onClick={() => {
@@ -207,8 +207,7 @@ export default function Hero() {
             animate={isMobile ? "visible" : undefined}
             whileInView={!isMobile ? "visible" : undefined}
             viewport={{ once: true, amount: 0.2 }}
-            className="px-8 py-3 border border-zinc-700 text-white font-semibold rounded-none hover:bg-zinc-800 transition-colors"
-          
+            className="px-8 py-3 max-[480px]:px-5 max-[480px]:py-2.5 max-[480px]:text-xs border border-zinc-700 text-white font-semibold rounded-none hover:bg-zinc-800 transition-colors"
             onClick={() => {
            document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
          }}

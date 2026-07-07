@@ -66,11 +66,10 @@ const projects: Project[] = [
   },
   {
     index: "03",
-    title: "PulseMetrics",
-    description:
-      "An AI-powered analytics dashboard that turns raw product data into plain-English insights and automated weekly digest reports for founders and product teams.",
-    image: "/projects/pulsemetrics.png",
-    stack: ["Next.js", "TypeScript", "OpenAI API"],
+    title: "Developer Portfolio",
+    description: "A high-performance, responsive developer portfolio built with Next.js and Tailwind CSS. Features custom Framer Motion interactions and a clean, mobile-optimized layout.",
+    image: "/projects/portfolio.png",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     link: "#", 
   },
 ];
