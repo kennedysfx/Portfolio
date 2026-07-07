@@ -115,7 +115,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center bg-black text-white overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex flex-col justify-center items-center bg-black text-white overflow-hidden">
       <GridBackground />
 
       {/* Vertical Lines */}

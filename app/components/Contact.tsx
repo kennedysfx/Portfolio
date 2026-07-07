@@ -1,8 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail} from "lucide-react";
+import { Mail } from "lucide-react";
 import { FaXTwitter, FaTiktok, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+
+// Same corrected number as Header.tsx — country code 234 + local number with the leading 0 dropped
+const whatsappNumber = "2349061645790";
+
+const getWhatsappLink = (message: string) =>
+  `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
 // Custom Highlight component adapted as a clickable link
 const HighlightLink = ({ children, href }: { children: React.ReactNode; href: string }) => (
@@ -54,7 +60,7 @@ export default function Contact() {
       label: "Instant messaging & chat",
       icon: FaWhatsapp,
       color: "bg-green-500/10 text-green-400 border-green-500/20",
-      url: "https://wa.me/09061645790?text=Hi%20Kennedy,%20I%20need%20a%20website!", 
+      url: getWhatsappLink("Hi Kennedy! I came across your portfolio and I'd love to chat about a project."),
     },
     {
       name: "kennedys",
@@ -191,7 +197,7 @@ export default function Contact() {
                 need a website?
               </span>
               <a 
-                href="https://wa.me/09061645790?text=Hi%20Kennedy!%20I%20came%20across%20your%20portfolio%20and%20I'd%20love%20to%20chat%20about%20a%20project."
+                href={getWhatsappLink("Hi Kennedy, I need a website!")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-blue-500 hover:bg-blue-600 text-black font-mono font-bold tracking-[0.25em] text-xs uppercase py-4 rounded-none flex items-center justify-center gap-2 transition-colors duration-300">
