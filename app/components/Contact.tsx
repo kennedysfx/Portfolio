@@ -42,7 +42,7 @@ export default function Contact() {
   const socials = [
     { name: "GITHUB", url: "https://github.com/kennedysfx" },
     { name: "X", url: "https://x.com/kennedys_fx" },
-    { name: "LINKEDIN", url: "https://linkedin.com" },
+    { name: "LINKEDIN", url: "https://bit.ly/kennedylinkedin" },
     { name: "TIKTOK", url: "https://www.tiktok.com/@web_dever?_r=1&_t=ZS-97oPgs1ed1N" },
   ];
 
@@ -67,7 +67,7 @@ export default function Contact() {
       label: "Professional connect",
       icon: FaLinkedin,
       color: "bg-blue-500/10 text-blue-400 border-blue-500/20",
-      url: "https://linkedin.com",
+      url: "https://bit.ly/kennedylinkedin",
     },
     {
       name: "@kennedysfx",
