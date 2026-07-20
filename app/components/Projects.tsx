@@ -12,6 +12,7 @@ interface Project {
   image: string;
   stack: string[];
   link: string;
+  status?: string;
 }
 
 // 1. Safe icon resolver map
@@ -48,6 +49,15 @@ const brandColors: Record<string, string> = {
 const projects: Project[] = [
   {
     index: "01",
+    title: "Atelier Aura",
+    description: "A luxury perfume e-commerce boutique featuring curated collections, an interactive visual carousel, personalized user profiles, and a seamless shopping cart. The platform includes a full administrative suite for seamless catalog and inventory control.",
+    image: "/projects/atelier-aura.png", // Update this to your screenshot when ready
+    stack: ["Next.js", "TypeScript", "CSS3", "Neon", "Vercel"],
+    link: "https://shop-atelier-aura.vercel.app",
+    status: "Under Construction" // Triggers the visual badge
+  },
+  {
+    index: "02",
     title: "Pandora Homes",
     description:
       "A real estate discovery platform connecting buyers with verified property listings across Lagos, Abuja, Enugu, and Port Harcourt — with dynamic filtering by location, property type, and price range.",
@@ -56,7 +66,7 @@ const projects: Project[] = [
     link: "https://pandorahomes.vercel.app/",
   },
   {
-    index: "02",
+    index: "03",
     title: "AllStars Against Cancer",
     description:
       "A nonprofit fundraising platform built to turn visitor trust into donations. Featuring transparent impact reporting, patient stories, and a streamlined giving flow for cancer research funding.",
@@ -65,7 +75,7 @@ const projects: Project[] = [
     link: "https://allstars-against-cancer.vercel.app/",
   },
   {
-    index: "03",
+    index: "04",
     title: "Developer Portfolio",
     description: "A high-performance, responsive developer portfolio built with Next.js and Tailwind CSS. Features custom Framer Motion interactions and a clean, mobile-optimized layout.",
     image: "/projects/portfolio.png",
@@ -144,15 +154,25 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Card Text */}
-            <div className="p-6">
-              <span className="text-blue-500 font-mono text-sm">{project.index}</span>
-              <h3 className="text-xl md:text-2xl font-bold mt-2 mb-2 group-hover:text-blue-500 transition-colors">
+{/* Card Text */}
+          <div className="p-6 flex flex-col flex-grow">
+            <span className="text-blue-500 font-mono text-sm">{project.index}</span>
+            
+            {/* TITLE & BADGE CONTAINER */}
+            <div className="flex items-center gap-3 mt-2 mb-2">
+              <h3 className="text-xl md:text-2xl font-bold group-hover:text-blue-500 transition-colors">
                 {project.title}
               </h3>
-              <p className="text-zinc-400 text-sm font-light leading-relaxed mb-4">
-                {project.description}
-              </p>
+              {project.status && (
+                <span className="px-2 py-0.5 text-[9px] font-mono uppercase tracking-widest text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded-full shrink-0">
+                  {project.status}
+                </span>
+              )}
+            </div>
+
+            <p className="text-zinc-400 text-sm font-light leading-relaxed mb-6 flex-grow">
+              {project.description}
+            </p>
 
               {/* Tech Stack Rendering with Brand Colors */}
               <div className="flex flex-wrap gap-2">
