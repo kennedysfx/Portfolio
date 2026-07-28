@@ -54,7 +54,7 @@ const projects: Project[] = [
     image: "/projects/atelier-aura.png", // Update this to your screenshot when ready
     stack: ["Next.js", "TypeScript", "CSS3", "Neon", "Vercel"],
     link: "https://shop-atelier-aura.vercel.app",
-    status: "Under active development" // Triggers the visual badge
+    status: "Ready" // Triggers the visual badge
   },
   {
     index: "02",
@@ -64,6 +64,7 @@ const projects: Project[] = [
     image: "/projects/pandora-homes.png",
     stack: ["HTML5", "CSS3", "JavaScript"],
     link: "https://pandorahomes.vercel.app/",
+    status: "Ready" 
   },
   {
     index: "03",
@@ -73,6 +74,7 @@ const projects: Project[] = [
     image: "/projects/allstars-against-cancer.png",
     stack: ["Next.js", "Tailwind CSS", "Vercel", "neon"],
     link: "https://allstars-against-cancer.vercel.app/",
+    status: "Ready" 
   },
   {
     index: "04",
@@ -81,6 +83,7 @@ const projects: Project[] = [
     image: "/projects/portfolio.png",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     link: "#", 
+    status: "Ready" 
   },
 ];
 
@@ -164,7 +167,7 @@ export default function Projects() {
                 {project.title}
               </h3>
               {project.status && (
-                <span className="px-2 py-0.5 text-[9px] font-mono uppercase tracking-widest text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded-full shrink-0">
+                <span className="px-2 py-0.5 text-[9px] font-mono uppercase tracking-widest text-amber-500 bg-green-500/10 border border-amber-500/20 rounded-full shrink-0">
                   {project.status}
                 </span>
               )}
