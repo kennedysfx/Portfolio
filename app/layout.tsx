@@ -13,6 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* 👉 PASTE YOUR GOOGLE SITE VERIFICATION META TAG HERE */}
+        <meta name="google-site-verification" content="yDTpPppvvpkgSc3Aq1nr9ibqmymEyyjuHFvuc2P1sHQ" />
+      </head>
       <body>
         <PageGate>{children}</PageGate>
       </body>
