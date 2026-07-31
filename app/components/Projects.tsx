@@ -46,6 +46,13 @@ const brandColors: Record<string, string> = {
   "OpenAI API": "text-[#10A37F]",  // OpenAI Green
 };
 
+// 3. Status badge styling map — mirrors the "Data Under Review" (purple) and
+// "Data Accepted" (green) indicator styles
+const statusStyles: Record<string, string> = {
+  "Not Ready": "text-purple-400 bg-purple-500/10 border-purple-400/30",
+  "Ready": "text-emerald-400 bg-emerald-500/10 border-emerald-400/30",
+};
+
 const projects: Project[] = [
   {
     index: "01",
@@ -54,7 +61,7 @@ const projects: Project[] = [
     image: "/projects/atelier-aura.png", // Update this to your screenshot when ready
     stack: ["Next.js", "TypeScript", "CSS3", "Neon", "Vercel"],
     link: "https://shop-atelier-aura.vercel.app",
-    status: "Ready" // Triggers the visual badge
+    status: "Under Active Development" // Triggers the visual badge
   },
   {
     index: "02",
@@ -167,7 +174,11 @@ export default function Projects() {
                 {project.title}
               </h3>
               {project.status && (
-                <span className="px-2 py-0.5 text-[9px] font-mono uppercase tracking-widest text-amber-500 bg-green-500/10 border border-amber-500/20 rounded-full shrink-0">
+                <span
+                  className={`px-2 py-0.5 text-[9px] font-mono uppercase tracking-widest border rounded-full shrink-0 ${
+                    statusStyles[project.status] ?? statusStyles["Not Ready"]
+                  }`}
+                >
                   {project.status}
                 </span>
               )}
