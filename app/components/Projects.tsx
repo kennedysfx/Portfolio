@@ -61,7 +61,7 @@ const projects: Project[] = [
     image: "/projects/atelier-aura.png", // Update this to your screenshot when ready
     stack: ["Next.js", "TypeScript", "CSS3", "Neon", "Vercel"],
     link: "https://shop-atelier-aura.vercel.app",
-    status: "Under Active Development" // Triggers the visual badge
+    status: "Ready" // Triggers the visual badge
   },
   {
     index: "02",
