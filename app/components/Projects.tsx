@@ -54,8 +54,17 @@ const statusStyles: Record<string, string> = {
 };
 
 const projects: Project[] = [
-  {
+    {
     index: "01",
+    title: "Jay's Kitchen",
+    description: "A premium Nigerian food delivery website for a small restaurant in Nsukka, offering party jollof, peppered chicken, and loaded trays, cooked fresh and delivered hot straight to your door, with WhatsApp ordering and a bold black-and-gold luxury aesthetic",
+    image: "/projects/jays-kitchen.png", // Update this to your screenshot when ready
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    link: "https://jays-kitchen1.vercel.app/",
+    status: "Under Active Development" // Triggers the visual badge
+  },
+  {
+    index: "02",
     title: "Atelier Aura",
     description: "A luxury perfume e-commerce boutique featuring curated collections, an interactive visual carousel, personalized user profiles, and a seamless shopping cart. The platform includes a full administrative suite for seamless catalog and inventory control.",
     image: "/projects/atelier-aura.png", // Update this to your screenshot when ready
@@ -64,7 +73,7 @@ const projects: Project[] = [
     status: "Ready" // Triggers the visual badge
   },
   {
-    index: "02",
+    index: "03",
     title: "Pandora Homes",
     description:
       "A real estate discovery platform connecting buyers with verified property listings across Lagos, Abuja, Enugu, and Port Harcourt — with dynamic filtering by location, property type, and price range.",
@@ -74,7 +83,7 @@ const projects: Project[] = [
     status: "Ready" 
   },
   {
-    index: "03",
+    index: "04",
     title: "AllStars Against Cancer",
     description:
       "A nonprofit fundraising platform built to turn visitor trust into donations. Featuring transparent impact reporting, patient stories, and a streamlined giving flow for cancer research funding.",
@@ -84,7 +93,7 @@ const projects: Project[] = [
     status: "Ready" 
   },
   {
-    index: "04",
+    index: "05",
     title: "Developer Portfolio",
     description: "A high-performance, responsive developer portfolio built with Next.js and Tailwind CSS. Features custom Framer Motion interactions and a clean, mobile-optimized layout.",
     image: "/projects/portfolio.png",
