@@ -1,9 +1,22 @@
+import type { Metadata } from "next";
 import "./globals.css";
 import PageGate from "@/app/components/PageGate";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Kennedy Ezebilo | Portfolio",
   description: "Engineering high-performance web applications.",
+  icons: [
+    {
+      media: "(prefers-color-scheme: light)",
+      url: "/faviconb.webp",
+      href: "/faviconb.webp",
+    },
+    {
+      media: "(prefers-color-scheme: dark)",
+      url: "/faviconw.webp",
+      href: "/faviconw.webp",
+    },
+  ],
 };
 
 export default function RootLayout({
