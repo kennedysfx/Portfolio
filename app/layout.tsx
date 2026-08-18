@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   icons: [
     {
       media: "(prefers-color-scheme: light)",
-      url: "/faviconb.png",
-      href: "/faviconb.png",
+      url: "/faviconb.png?v=2",
+      href: "/faviconb.png?v=2",
     },
     {
       media: "(prefers-color-scheme: dark)",
-      url: "/faviconw.png",
-      href: "/faviconw.png",
+      url: "/faviconw.png?v=2",
+      href: "/faviconw.png?v=2",
     },
   ],
 };
@@ -29,6 +29,10 @@ export default function RootLayout({
       <head>
         {/* 👉 PASTE YOUR GOOGLE SITE VERIFICATION META TAG HERE */}
         <meta name="google-site-verification" content="yDTpPppvvpkgSc3Aq1nr9ibqmymEyyjuHFvuc2P1sHQ" />
+
+        {/* Explicit fallback favicon links — some mobile browsers ignore the metadata icons array */}
+        <link rel="icon" href="/faviconb.png?v=2" type="image/png" />
+        <link rel="apple-touch-icon" href="/faviconb.png?v=2" />
       </head>
       <body>
         <PageGate>{children}</PageGate>
