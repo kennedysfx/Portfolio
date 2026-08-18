@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   icons: [
     {
       media: "(prefers-color-scheme: light)",
-      url: "/faviconb.webp",
-      href: "/faviconb.webp",
+      url: "/faviconb.png",
+      href: "/faviconb.png",
     },
     {
       media: "(prefers-color-scheme: dark)",
-      url: "/faviconw.webp",
-      href: "/faviconw.webp",
+      url: "/faviconw.png",
+      href: "/faviconw.png",
     },
   ],
 };
