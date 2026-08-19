@@ -101,6 +101,15 @@ const projects: Project[] = [
     link: "#", 
     status: "Ready" 
   },
+  {
+    index: "06",
+    title: "Little Sparks Learning",
+    description: "A conversion-focused landing page for a kindergarten math printable pack, built with React and Tailwind CSS. Features a custom section-by-section layout, interactive worksheet previews, and direct Selar checkout integration.",
+    image: "/projects/little-sparks.png",
+    stack: ["React", "Tailwind CSS", "Vite", "Vercel"],
+    link: "#", 
+    status: "Ready"
+  },
 ];
 
 export default function Projects() {
