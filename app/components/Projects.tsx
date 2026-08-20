@@ -107,7 +107,7 @@ const projects: Project[] = [
     description: "A conversion-focused landing page for a kindergarten math printable pack, built with React and Tailwind CSS. Features a custom section-by-section layout, interactive worksheet previews, and direct Selar checkout integration.",
     image: "/projects/little-sparks.png",
     stack: ["React", "Tailwind CSS", "Vite", "Vercel"],
-    link: "#", 
+    link: "https://sparkslearning.vercel.app/", 
     status: "Ready"
   },
 ];
