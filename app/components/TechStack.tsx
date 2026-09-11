@@ -506,39 +506,6 @@ export default function TechStack() {
         ))}
       </motion.div>
     </section>
-
-<section className="relative bg-black text-white py-24 px-4 md:px-12 text-center">
-        <div className="max-w-4xl mx-auto">
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-4xl md:text-7xl font-bold tracking-tighter mb-6"
-          >
-            Got an idea? Let's <span className="text-blue-600">Build Together</span>
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="text-zinc-400 text-lg md:text-xl font-light"
-          >
-
-  I build from zero to launch. Whether it's frontend, backend or full-stack 
-  <Highlight>
-    <span className="text-blue-500">web applications</span>
-  </Highlight>.
-  I work across the entire development lifecycle. From UI/UX to deployment, 
-  I’m less concerned with  
-   <Highlight>
-    <span className="text-blue-500">technical trends</span>
-  </Highlight> 
-  and more concerned with one thing: delivering work that people genuinely love to use.
-
-
-          </motion.p>
-        </div>
-      </section>
     </>
   );
 }

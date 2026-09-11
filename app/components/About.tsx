@@ -144,7 +144,7 @@ export default function About() {
               }}
               className="absolute bottom-4 -right-4 bg-zinc-950 border border-zinc-800 p-4 rounded-none shadow-xl min-w-[110px] text-center backdrop-blur-md z-10"
             >
-              <span className="block text-xl font-bold text-blue-500 font-mono tracking-tighter">3+</span>
+              <span className="block text-xl font-bold text-blue-500 font-mono tracking-tighter">5+</span>
               <span className="block text-[10px] text-zinc-400 font-medium tracking-widest uppercase mt-0.5">Live builds</span>
             </motion.div>
           </motion.div>
@@ -176,7 +176,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-3xl md:text-5xl font-bold tracking-tight mb-6 leading-[1.15]"
           >
-            I write code that makes web apps effortless to use and highly profitable.
+            I write codes that makes web apps effortless to use and highly profitable.
           </motion.h2>
 
           {/* Core Descriptive Text Stack */}

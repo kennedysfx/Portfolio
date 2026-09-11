@@ -3,6 +3,7 @@ import Hero from "@/app/components/Hero";
 import About from "@/app/components/About"; // Fixed path here!
 import Project from "@/app/components/Projects"; 
 import TechStack from "@/app/components/TechStack";
+import HowItWorks from "@/app/components/HowItWorks";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Project />
       <TechStack />
+      <HowItWorks />
       <Contact />
       <Footer />
     </main>

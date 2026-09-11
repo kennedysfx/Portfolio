@@ -167,7 +167,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-zinc-400 text-lg md:text-xl max-w-lg mx-auto font-light">
-          Always building performant web applications across digital fundraising and real estate.
+          3x your revenue and growth through converting websites, landing pages and applications.
           Currently building intelligent, high-converting platforms that drive maximum revenue generation.
         </p>
 
