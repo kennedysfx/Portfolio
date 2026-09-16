@@ -87,7 +87,7 @@ export default function HowItWorks() {
           transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
           className="text-4xl md:text-7xl font-bold tracking-tighter mb-4"
         >
-          How It <span className="text-blue-500">Works</span>
+          Work With <span className="text-blue-500">Me</span>
         </motion.h2>
 
         <motion.p
