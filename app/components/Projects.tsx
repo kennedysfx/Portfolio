@@ -56,12 +56,13 @@ const statusStyles: Record<string, string> = {
 const projects: Project[] = [
     {
     index: "01",
-    title: "Jay's Kitchen",
-    description: "A premium Nigerian food delivery website for a small restaurant in Nsukka, offering party jollof, peppered chicken, and loaded trays, cooked fresh and delivered hot straight to your door, with WhatsApp ordering and a bold black-and-gold luxury aesthetic",
-    image: "/projects/jays-kitchen.png", // Update this to your screenshot when ready
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    link: "https://jays-kitchen1.vercel.app/",
-    status: "Under Active Development" // Triggers the visual badge
+    title: "AllStars Against Cancer",
+    description:
+      "A nonprofit fundraising platform built to turn visitor trust into donations. Featuring transparent impact reporting, patient stories, and a streamlined giving flow for cancer research funding.",
+    image: "/projects/allstars-against-cancer.png",
+    stack: ["Next.js", "Tailwind CSS", "Vercel", "neon"],
+    link: "https://allstars-against-cancer.vercel.app/",
+    status: "Ready"
   },
   {
     index: "02",
@@ -84,13 +85,12 @@ const projects: Project[] = [
   },
   {
     index: "04",
-    title: "AllStars Against Cancer",
-    description:
-      "A nonprofit fundraising platform built to turn visitor trust into donations. Featuring transparent impact reporting, patient stories, and a streamlined giving flow for cancer research funding.",
-    image: "/projects/allstars-against-cancer.png",
-    stack: ["Next.js", "Tailwind CSS", "Vercel", "neon"],
-    link: "https://allstars-against-cancer.vercel.app/",
-    status: "Ready" 
+    title: "Jay's Kitchen",
+    description: "A premium Nigerian food delivery website for a small restaurant in Nsukka, offering party jollof, peppered chicken, and loaded trays, cooked fresh and delivered hot straight to your door, with WhatsApp ordering and a bold black-and-gold luxury aesthetic",
+    image: "/projects/jays-kitchen.png", 
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    link: "https://jays-kitchen1.vercel.app/",
+    status: "Under Active Development" 
   },
   {
     index: "05",
