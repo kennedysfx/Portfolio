@@ -67,7 +67,7 @@ const projects: Project[] = [
     {
     index: "02",
     title: "InvoPing",
-    description: "A WhatsApp-focused invoicing SaaS for freelancers and small businesses. Create professional PDF invoices, share them through WhatsApp, manage clients, send payment reminders, and track full or partial payments. Includes financial analytics, subscription plans, and a dedicated administration dashboard.",
+    description: "A WhatsApp-focused invoicing SaaS for freelancers and small businesses. Create professional PDF invoices, share them through WhatsApp, manage clients, send payment reminders, and track full or partial payments. Includes financial analytics and subscription plans.",
     image: "/projects/invoPing.png", // Update this to your screenshot when ready
     stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Drizzle ORM", "Neon", "Resend", "Vercel"],
     link: "https://invoPing.vercel.app",
