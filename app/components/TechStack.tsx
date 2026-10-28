@@ -139,7 +139,7 @@ const techStack: Tech[] = [
 const metrics = [
   { value: 14, label: "Technologies" },
   { value: 4, label: "Categories" },
-  { value: 39, label: "Commits on GitHub" },
+  { value: 100, label: "Commits on GitHub" },
 ];
 
 export default function TechStack() {
