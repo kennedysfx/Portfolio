@@ -101,8 +101,17 @@ const projects: Project[] = [
     link: "https://jays-kitchen1.vercel.app/",
     status: "Under Active Development" 
   },
+{
+  index: "06",
+  title: "Survey Masterclass",
+  description: "A conversion-focused landing page for a free masterclass on a survey platform made for Nigerians. It has a text-based hero, a testimonial gallery with a lightbox, an FAQ, a live countdown to the registration deadline, and Meta Pixel tracking for ad campaigns. Mobile-first and built for fast loading.",
+  image: "/projects/survey.png",
+  stack: ["HTML", "CSS", "JavaScript", "Meta Pixel", "Vercel"],
+  link: "https://devapp-survey.vercel.app/",
+  status: "Ready"
+},
   {
-    index: "06",
+    index: "07",
     title: "Developer Portfolio",
     description: "A high-performance, responsive developer portfolio built with Next.js and Tailwind CSS. Features custom Framer Motion interactions and a clean, mobile-optimized layout.",
     image: "/projects/portfolio.png",
@@ -111,7 +120,7 @@ const projects: Project[] = [
     status: "Ready" 
   },
   {
-    index: "07",
+    index: "08",
     title: "Little Sparks Learning",
     description: "A conversion-focused landing page for a kindergarten math printable pack, built with React and Tailwind CSS. Features a custom section-by-section layout, interactive worksheet previews, and direct Selar checkout integration.",
     image: "/projects/little-sparks.png",
